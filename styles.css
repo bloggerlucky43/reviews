@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(224, 233, 233);
+}
+.title{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 25%;
+    font-size:24px;
+}
+#person-img{
+    border: solid blue 1px;
+    border-radius: 50%; 
+    height: 50%;
+    width: 50%;
+    
+}
+.button-container{
+    column-gap: normal;
+    display: block;
+}
+button{
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover{
+    background-color: rgb(224, 233, 233);
+}
+.review{
+    border: solid white 4px;  
+    background-color:white;
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1) ;
+    display: flex; */
+    /* width: 100%;
+    height: 50%; */
+    /* position: absolute;
+    flex-direction: column; */
+    justify-content: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 9px;
+    padding-right: 9px;
+    text-align: center;
+    margin-top: 0%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 20%;
+}
+h4{
+    font-weight: bolder;
+    font-size: large;
+}
+#job{
+    font-family: italic;
+
+}
+.underline{
+    text-decoration: underline;
+}
